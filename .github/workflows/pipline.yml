@@ -1,0 +1,24 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4 # It's good practice to pin the action version
+        with:
+          node-version: '22' # Use a string for the version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test

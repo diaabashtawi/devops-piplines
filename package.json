@@ -1,0 +1,22 @@
+{
+  "name": "devops-piplines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diaabashtawi/devops-piplines.git"
+  },
+  "keywords": [],
+  "author": "Deya Bakheet",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/diaabashtawi/devops-piplines/issues"
+  },
+  "homepage": "https://github.com/diaabashtawi/devops-piplines#readme"
+}
